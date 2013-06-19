@@ -81,6 +81,8 @@ p {
   }
 }
 
+
+
 /* footer */
 
 footer {
@@ -186,5 +188,41 @@ input {
     &:last-child {
       border-bottom: 1px solid $grayLighter;
     }
+  }
+}
+
+/* microposts */
+
+.microposts {
+  list-style: none;
+  margin: 10px 0 0 0;
+
+  li {
+    padding: 10px 0;
+    border-top: 1px solid #e8e8e8;
+  }
+}
+
+.feed_gravatar{
+
+}
+.content {
+  display: block;
+}
+.timestamp {
+  color: $grayLight;
+}
+.gravatar {
+	width: 23px;
+	height: 23px;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	background: #FFFFFF;
+	}
+aside {
+  textarea {
+    height: 100px;
+    margin-bottom: 5px;
   }
 }
